@@ -1111,6 +1111,9 @@ body.darkmode a.btn-default {
     align-items: center;
     justify-content: center;
   }
+  #resume-btn {
+    width: 100%;
+  }
   .modal {
     width: 95%;
   }
