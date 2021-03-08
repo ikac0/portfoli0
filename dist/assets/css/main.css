@@ -1260,3 +1260,10 @@ img.bright {
   height: 20px;
   width: 20px;
 }
+.intro-p {
+  margin: 12px;
+  font-size: 1rem;
+}
+.intro-p :last-child {
+  margin-bottom: 0px;
+}
