@@ -1,7 +1,7 @@
 {
-  "name": "v3",
+  "name": "portfoli0",
   "version": "1.0.0",
-  "description": "",
+  "description": "Personal Website",
   "main": "index.js",
   "scripts": {
     "deploy": "gh-pages -d dist"
@@ -11,7 +11,7 @@
     "url": "git+https://github.com/Ali-Mohd1/portfolio-website.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Krsteski",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Ali-Mohd1/portfolio-website/issues"
