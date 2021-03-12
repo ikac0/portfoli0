@@ -6,6 +6,11 @@ $(".burger").on("click", function (event) {
   $(".navigation-bar").toggleClass("show");
 });
 
+$(".hideSidebar").on("click", function (event) {
+  $(this).toggleClass("open");
+  $(".navigation-bar").toggleClass("show");
+});
+
 // Darkmode
 $(".darkmode-btn").on("click", function (event) {
   $("body").toggleClass("darkmode");
@@ -81,9 +86,10 @@ ScrollReveal().reveal(
 ScrollReveal().reveal(".sub-heading");
 ScrollReveal().reveal(".col-right");
 ScrollReveal().reveal(".heading", { delay: 100 });
-ScrollReveal().reveal(".heading2", { delay: 200 });
-ScrollReveal().reveal(".paragraph", { delay: 300 });
-ScrollReveal().reveal(".btn-blk", { delay: 400 });
+ScrollReveal().reveal(".heading3", { delay: 300 });
+ScrollReveal().reveal(".paragraph", { delay: 400 });
+ScrollReveal().reveal(".btn-blk", { delay: 500 });
+
 // About
 ScrollReveal().reveal(".about-col-left");
 ScrollReveal().reveal(".about-heading");
