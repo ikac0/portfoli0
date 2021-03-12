@@ -1274,3 +1274,7 @@ img.bright {
 .image-main {
   margin-bottom: -7px !important;
 }
+
+.fixed-position {
+  position: fixed;
+}
